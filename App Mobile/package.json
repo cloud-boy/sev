@@ -1,5 +1,6 @@
 {
   "name": "hello-guys",
+   "author": "Houssem Yahiaoui <g0-d3v@hotmail.fr>",
   "version": "1.0.0",
   "description": "Hello Guys: An Ionic project",
   "dependencies": {
