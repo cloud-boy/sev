@@ -1,4 +1,4 @@
-# Server / Mobile App :
+# Server / Hybrid Mobile App :
 This code was basically coded for the StartupAC EVENT !
 #Setting things UP !
 In order to have a clear view over the two projects you have / must watch the video presentation that show you how to install the needed tools and i'm speacking about : 
