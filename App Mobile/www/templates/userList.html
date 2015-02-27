@@ -1,0 +1,17 @@
+<ion-view>
+  <ion-content >
+      <!-- <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">-->
+      <ion-list class="collection" style="margin-top:20px; height:150px;">
+        <ion-item ng-repeat="user in users" id="users" show-delete="shouldShowDelete" class="collection-item">
+          {{user.fname}} {{user.lname}} &nbsp; have &nbsp; {{user.age}} &nbsp; year
+        </ion-item>
+      </ion-list>
+      <br />
+      <form>
+        <input type="text" id="fname" style="width:70%;margin-top: 50px;margin-left: 50px;" placeholder="Your First Name" ng-model="data.fname">
+        <input type="text" id="lname" style="width:70%;margin-left: 50px;" placeholder="Your Last Name" ng-model="data.lname">
+        <input type="number" id="age" style="width:70%;margin-left: 50px;" placeholder="Your Age" ng-model="data.age">
+        <a class="btn-floating btn-large waves-effect waves-light red"style="margin-top:70px;margin-left:150px;" ng-click="dataSend(data)"><i class="mdi-content-add"></i></a>
+      </form>
+  </ion-content>
+</ion-view>

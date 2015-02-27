@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="lib/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/materialize/dist/js/materialize.min.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="app/services/dataService.js"></script>
+    <script src="app/controllers/users.js"></script>
+    <script src="DOM/domman.js"></script>
+    <script src="app/services/CONFIG.js"></script>
+    <style>
+      .button-positive{
+          right:70px !important;
+      }
+    </style>
+  </head>
+  <body ng-app="starter" ng-controller="usersCtrl">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title centre">Hello Yasser  Ahder me3ana yaw!</h1>
+      </ion-header-bar>
+
+      <ion-nav-view></ion-nav-view>
+
+
+    </ion-pane>
+  </body>
+</html>
