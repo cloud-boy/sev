@@ -6,7 +6,7 @@ In order to have a clear view over the two projects you have / must watch the vi
 - **cordova**
 - **ionic**
 
-So to instal those tools please check the following [**video**](https://www.youtube.com/watch?v=ay2flPHk_2E), and in cas of any troubles or problems check also the included **pdf** file that come with the video description, and in cas of any wierd or unusual trouble you may just to contact me.
+So to instal those tools please check the following [**video**](https://www.youtube.com/watch?v=ay2flPHk_2E), and in case of any troubles or problems check also the included **pdf** file that come with the video description, and in case of any wierd or unusual trouble you may just to contact me.
 
 # The projects stucture :
 In this reposotory we have **two seperate project** 
